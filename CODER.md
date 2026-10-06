@@ -391,7 +391,7 @@ An agent surfaces an open question rather than guessing — at the end of a turn
 
 ### No side workspaces — work on the PR branch
 
-- All code changes happen on the PR branch checkout. **Never** apply fixes in a separate clone, worktree, or "review workspace".
+- All code changes happen on the PR branch checkout. Using worktrees is good too. **Never** apply fixes in a separate clone, or "review workspace".
 - A patch that exists only in a side workspace does not exist: it is unverifiable by others, not on the PR, and will be lost. Reporting such a patch as "addressed" is a false completion claim (violates T2).
 - Reviewers propose; the fix lands on the branch via the normal red → green → commit → push cycle (§5), or it is reported as an OPEN finding — never as done.
 
