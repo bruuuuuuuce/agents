@@ -234,7 +234,7 @@ the composition root — never constructed inside business logic.
   - [ ] Coverage gate passes locally.
   - [ ] No new lint warnings introduced.
   - [ ] Micro spec updated if scope changed during implementation.
-  - [ ] CHANGELOG entry added for user-visible changes.
+  - [ ] CHANGELOG entry added for user-visible changes, if the repository keeps a changelog. Never create one.
 
 ---
 

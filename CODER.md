@@ -222,7 +222,7 @@ SOLID applies to statements too — docs, specs, PR descriptions, commit message
   - [ ] Coverage gate passes locally.
   - [ ] No new lint warnings introduced.
   - [ ] Micro spec updated if scope changed during implementation. Any large divergence from the spec's intent was raised with the user and approved before proceeding — not self-approved by editing the spec (see §1).
-  - [ ] CHANGELOG entry added for user-visible changes.
+  - [ ] CHANGELOG entry added for user-visible changes, if the repository keeps a changelog. Never create one.
 
 ---
 
